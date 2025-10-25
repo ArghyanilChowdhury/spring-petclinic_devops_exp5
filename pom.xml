@@ -446,4 +446,12 @@
       </build>
     </profile>
   </profiles>
+
+    <distributionManagement>
+    <repository>
+      <id>local-repo</id>
+      <name>Local Repository</name>
+      <url>file://${project.basedir}/target/deploy-repo</url>
+    </repository>
+  </distributionManagement>
 </project>
